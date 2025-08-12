@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct QuoteAppApp: App {
+    let quoteAppSceneDIContainter: QuoteAppSceneDIContainer
+    let quoteAppSceneRouter: QuoteAppSceneRouter
+
+    init() {
+        let demoAppDIContainer = DemoAppDIContainer()
+        quoteAppSceneDIContainter = demoAppDIContainer.makeQuoteAppSceneDIContainter()
+        quoteAppSceneRouter = quoteAppSceneDIContainter.makeQuoteAppSceneRouter()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabBar(
+                quoteAppSceneDIContainter: quoteAppSceneDIContainter,
+                quoteAppSceneRouter: quoteAppSceneRouter
+            )
         }
     }
 }
