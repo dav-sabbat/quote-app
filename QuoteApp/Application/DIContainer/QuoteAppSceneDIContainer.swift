@@ -21,12 +21,19 @@ class QuoteAppSceneDIContainer {
     // MARK: View Model
 
     func makeQuoteViewViewModel() -> QuoteViewViewModel {
-        QuoteViewViewModel(getRandomQuote: makeGetRandomQuote())
+        QuoteViewViewModel(
+            getRandomQuote: makeGetRandomQuote(),
+            switchIsFavoriteFlag: makeSwitchIsFavoriteFlag()
+        )
     }
 
     // MARK: Use Cases
 
     func makeGetRandomQuote() -> GetRandomQuote {
         GetRandomQuote(quoteRepository: quoteRepository)
+    }
+
+    func makeSwitchIsFavoriteFlag() -> SwitchIsFavoriteFlag {
+        SwitchIsFavoriteFlag(quoteRepository: quoteRepository)
     }
 }

@@ -32,6 +32,34 @@ struct QuoteView: View {
                 .padding([.top])
             }
             Spacer()
+            HStack {
+                Spacer()
+                Image(systemName: "heart")
+                    .font(.title)
+                    .hidden()
+                Spacer()
+                Button(action: {
+                    quoteViewViewModel.fetchRandomQuote()
+                }, label: {
+                    Image(systemName: "arrow.trianglehead.2.clockwise")
+                        .font(.largeTitle)
+                        .foregroundStyle(.black)
+                        .opacity(0.6)
+                })
+                Spacer()
+                Button {
+                    quoteViewViewModel.switchIsFavorite()
+                } label: {
+                    Image(systemName: "heart\(quoteViewViewModel.quote?.isFavorite == true ? ".fill" : "")")
+                        .font(.title)
+                        .foregroundStyle(.black)
+                        .opacity(0.6)
+                }
+                Spacer()
+            }
+            .padding([.bottom])
+            .padding([.bottom])
+            .padding([.bottom])
         }
         .padding([.leading, .trailing])
         .background {
@@ -45,21 +73,21 @@ struct QuoteView: View {
             )
             .ignoresSafeArea()
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .task {
             if quoteViewViewModel.quote == nil {
-                quoteViewViewModel.fetchQuote()
+                quoteViewViewModel.fetchRandomQuote()
             }
         }
     }
 }
 
 #Preview {
-    let getRandomQuote = GetRandomQuote(
-        quoteRepository: InMemoryQuoteRepository()
-    )
+    let quoteRepository = InMemoryQuoteRepository()
+    let getRandomQuote = GetRandomQuote(quoteRepository: quoteRepository)
+    let switchIsFavoriteFlag = SwitchIsFavoriteFlag(quoteRepository: quoteRepository)
     let quoteViewViewModel = QuoteViewViewModel(
-        getRandomQuote: getRandomQuote
+        getRandomQuote: getRandomQuote,
+        switchIsFavoriteFlag: switchIsFavoriteFlag
     )
     QuoteView(quoteViewViewModel: quoteViewViewModel)
 }
