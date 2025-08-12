@@ -24,6 +24,7 @@ struct QuoteAppApp: App {
                 quoteAppSceneDIContainter: quoteAppSceneDIContainter,
                 quoteAppSceneRouter: quoteAppSceneRouter
             )
+            .preferredColorScheme(.light)
         }
     }
 }

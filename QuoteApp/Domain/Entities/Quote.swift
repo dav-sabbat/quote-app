@@ -14,7 +14,15 @@ enum Langage {
 }
 
 class Quote {
-    init(id: Int, text: String, author: String, originTitle: String? = nil, originYear: String? = nil, theme: Theme = .general, language: Langage = .french) {
+    init(id: Int,
+         text: String,
+         author: String,
+         originTitle: String? = nil,
+         originYear: String? = nil,
+         theme: Theme = .general,
+         language: Langage = .french,
+         isFavorite: Bool = false)
+    {
         self.id = id
         self.text = text
         self.author = author
@@ -22,6 +30,7 @@ class Quote {
         self.originYear = originYear
         self.theme = theme
         self.language = language
+        self.isFavorite = isFavorite
     }
 
     let id: Int
@@ -31,4 +40,5 @@ class Quote {
     let originYear: String?
     let theme: Theme
     let language: Langage
+    var isFavorite: Bool
 }

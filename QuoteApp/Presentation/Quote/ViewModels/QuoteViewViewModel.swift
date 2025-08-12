@@ -9,22 +9,33 @@ import SwiftUI
 
 class QuoteViewViewModel: ObservableObject {
     let getRandomQuote: GetRandomQuote
+    let switchIsFavoriteFlag: SwitchIsFavoriteFlag
     @Published var quote: QuoteUIModel?
 
-    init(getRandomQuote: GetRandomQuote) {
+    init(getRandomQuote: GetRandomQuote, switchIsFavoriteFlag: SwitchIsFavoriteFlag) {
         self.getRandomQuote = getRandomQuote
+        self.switchIsFavoriteFlag = switchIsFavoriteFlag
     }
 
-    func fetchQuote() {
+    func fetchRandomQuote() {
         do {
             let quote = try getRandomQuote.execute()
             self.quote = QuoteUIModel(
                 id: quote.id,
                 text: quote.text,
-                author: quote.author
+                author: quote.author,
+                isFavorite: quote.isFavorite
             )
         } catch {
-            self.quote = QuoteUIModel(id: 1, text: "", author: "")
+            print("cannot fetch quote")
+        }
+    }
+
+    func switchIsFavorite() {
+        if let quote = self.quote {
+            switchIsFavoriteFlag.id = quote.id
+            try? switchIsFavoriteFlag.execute()
+            self.quote?.isFavorite = !quote.isFavorite
         }
     }
 }
@@ -33,4 +44,5 @@ struct QuoteUIModel {
     let id: Int
     let text: String
     let author: String
+    var isFavorite: Bool
 }

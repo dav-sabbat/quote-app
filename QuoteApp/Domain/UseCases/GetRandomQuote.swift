@@ -5,11 +5,11 @@
 //  Created by David on 11/08/2025.
 //
 
-enum QuoteError: Error {
+enum GetRandomQuoteError: Error {
     case cannotFindQuote
 }
 
-struct GetRandomQuote {
+class GetRandomQuote: UseCase {
     let quoteRepository: QuoteRepository
 
     init(quoteRepository: QuoteRepository) {
@@ -17,10 +17,10 @@ struct GetRandomQuote {
     }
 
     func execute() throws -> Quote {
-        let allQuotes = self.quoteRepository.fetchAll()
+        let allQuotes = try self.quoteRepository.fetchAll()
         if let quote = allQuotes.randomElement() {
             return quote
         }
-        throw QuoteError.cannotFindQuote
+        throw GetRandomQuoteError.cannotFindQuote
     }
 }

@@ -6,6 +6,7 @@
 //
 
 protocol QuoteRepository {
-    func fetch(by id: Int) -> Quote
-    func fetchAll() -> [Quote]
+    func fetch(by id: Int) throws -> Quote?
+    func fetchAll() throws -> [Quote]
+    func setIsFavorite(id: Int, isFavorite: Bool) throws
 }
