@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": true
+    },
+    {
+        "id": 2,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 3,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": true
+    },
+    {
+        "id": 4,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 5,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": true
+    },
+    {
+        "id": 6,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 7,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": true
+    },
+    {
+        "id": 8,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 9,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": true
+    },
+    {
+        "id": 10,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 11,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": true
+    },
+    {
+        "id": 12,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 13,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": true
+    },
+    {
+        "id": 14,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 15,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": true
+    },
+    {
+        "id": 16,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 17,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": true
+    },
+    {
+        "id": 18,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 19,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": true
+    },
+    {
+        "id": 20,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 21,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours",
+        "author": "Gandhi",
+        "isFavorite": true
+    },
+    {
+        "id": 22,
+        "text": "Les enfants seuls savent ce qu'ils cherchent",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 23,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit",
+        "author": "Joëlle Laurencin",
+        "isFavorite": true
+    },
+    {
+        "id": 24,
+        "text": "Vis le présent, et les souvenirs t'accompagneront",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 25,
+        "text": "Une photographie est un souvenir en hibernation qui nie l'écoulement du temps",
+        "author": "André Hardellet",
+        "originTitle": "Le parc des Archers",
+        "originYear": "1972",
+        "isFavorite": true
+    },
+    {
+        "id": 26,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    }
+]

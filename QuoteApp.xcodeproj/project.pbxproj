@@ -37,6 +37,17 @@
 			);
 			target = 6377F1A12E48E07D00366395 /* QuoteApp */;
 		};
+		63972E292E4CF982006AC76D /* Exceptions for "QuoteApp" folder in "QuoteAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Repositories/InMemoryQuoteRepository.swift,
+				Domain/Entities/Quote.swift,
+				Domain/Interfaces/Repositories/QuoteRepository.swift,
+				Domain/UseCases/GetAllFavoriteQuotes.swift,
+				Domain/UseCases/UseCase.swift,
+			);
+			target = 6377F1B12E48E07E00366395 /* QuoteAppTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,12 +55,19 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				6377F1E02E48F28800366395 /* Exceptions for "QuoteApp" folder in "QuoteApp" target */,
+				63972E292E4CF982006AC76D /* Exceptions for "QuoteApp" folder in "QuoteAppTests" target */,
 			);
+			explicitFileTypes = {
+				"Resources/Data/list-of-quotes.json" = text.json;
+			};
 			path = QuoteApp;
 			sourceTree = "<group>";
 		};
 		6377F1B52E48E07E00366395 /* QuoteAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+				"Resource/list-of-random-26-quotes.json" = text.json;
+			};
 			path = QuoteAppTests;
 			sourceTree = "<group>";
 		};
@@ -464,7 +482,6 @@
 		6377F1CA2E48E07E00366395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KCSKG7PGQ;
@@ -483,7 +500,6 @@
 		6377F1CB2E48E07E00366395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KCSKG7PGQ;

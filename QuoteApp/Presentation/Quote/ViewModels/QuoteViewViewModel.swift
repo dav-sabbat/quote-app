@@ -32,17 +32,10 @@ class QuoteViewViewModel: ObservableObject {
     }
 
     func switchIsFavorite() {
-        if let quote = self.quote {
+        if let quote = quote {
             switchIsFavoriteFlag.id = quote.id
             try? switchIsFavoriteFlag.execute()
             self.quote?.isFavorite = !quote.isFavorite
         }
     }
-}
-
-struct QuoteUIModel {
-    let id: Int
-    let text: String
-    let author: String
-    var isFavorite: Bool
 }

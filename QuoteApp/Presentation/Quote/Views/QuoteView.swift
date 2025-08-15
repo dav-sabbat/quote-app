@@ -82,7 +82,7 @@ struct QuoteView: View {
 }
 
 #Preview {
-    let quoteRepository = InMemoryQuoteRepository()
+    let quoteRepository = InMemoryQuoteRepository(url: Bundle.main.url(forResource: "list-of-quotes", withExtension: "json")!)
     let getRandomQuote = GetRandomQuote(quoteRepository: quoteRepository)
     let switchIsFavoriteFlag = SwitchIsFavoriteFlag(quoteRepository: quoteRepository)
     let quoteViewViewModel = QuoteViewViewModel(

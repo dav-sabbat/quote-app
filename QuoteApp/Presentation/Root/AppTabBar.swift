@@ -13,15 +13,18 @@ struct AppTabBar: View {
 
     var body: some View {
         let quoteView = quoteAppSceneRouter.makeQuoteView()
+        let favoriteQuoteList = quoteAppSceneRouter.makeFavortieQuoteList()
         TabView {
             quoteView
                 .tabItem {
                     Image(systemName: "quote.opening")
                 }
-            Text("Favoris")
+
+            favoriteQuoteList
                 .tabItem {
                     Image(systemName: "heart")
                 }
+
             Text("Recherche")
                 .tabItem {
                     Image(systemName: "magnifyingglass")
