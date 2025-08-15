@@ -5,31 +5,67 @@
 //  Created by David on 10/08/2025.
 //
 
-// enum InMemoryError: Error {
-//    case cannotSwithIsFavorite
-// }
+import Foundation
 
 class InMemoryQuoteRepository: QuoteRepository {
-    func fetch(by id: Int) throws -> Quote? {
-        sample.first { $0.id == id }
-    }
+    var quoteJsonList: [QuoteJson] = []
 
-    func fetchAll() throws -> [Quote] {
-        return sample
-    }
-
-    func setIsFavorite(id: Int, isFavorite: Bool) throws {
-        if let quote = try fetch(by: id) {
-            quote.isFavorite = isFavorite
+    init(url: URL) {
+        if let data = try? Data(contentsOf: url),
+           let decoded = try? JSONDecoder().decode([QuoteJson].self, from: data)
+        {
+            self.quoteJsonList = decoded
+        } else {
+            print("Impossible de charger le fichier")
         }
     }
 
-    var sample: [Quote] = [
-        Quote(id: 1, text: "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours", author: "Gandhi", isFavorite: true),
-        Quote(id: 2, text: "Les enfants seuls savent ce qu'ils cherchent", author: "Antoine de Saint-Exupéry", isFavorite: true),
-        Quote(id: 3, text: "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit", author: "Joëlle Laurencin", isFavorite: false),
-        Quote(id: 4, text: "Vis le présent, et les souvenirs t'accompagneront", author: "Nabil Alami", isFavorite: true),
-        Quote(id: 5, text: "Une photographie est un souvenir en hibernation qui nie l'écoulement du temps", author: "André Hardellet", originTitle: "Le parc des Archers", originYear: "1972", isFavorite: false),
-        Quote(id: 6, text: "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles", author: "Oscar Wilde", isFavorite: true),
-    ]
+    func fetch(by id: Int) throws -> Quote {
+        convert(from:
+            quoteJsonList.first { $0.id == id }!
+        )
+    }
+
+    func fetchAll() throws -> [Quote] {
+        quoteJsonList.map {
+            convert(from: $0)
+        }
+    }
+
+    func fetchAllFavoriteQuotes() throws -> [Quote] {
+        quoteJsonList
+            .filter { $0.isFavorite == true }
+            .map { convert(from: $0) }
+    }
+
+    func setIsFavorite(id: Int, isFavorite: Bool) throws {
+        try (fetch(by: id)).isFavorite = isFavorite
+    }
+}
+
+extension InMemoryQuoteRepository {
+    class QuoteJson: Codable {
+        init(id: Int, text: String, author: String, isFavorite: Bool) {
+            self.id = id
+            self.text = text
+            self.author = author
+            self.isFavorite = isFavorite
+        }
+
+        let id: Int
+        let text: String
+        let author: String
+        let isFavorite: Bool
+    }
+}
+
+extension InMemoryQuoteRepository {
+    private func convert(from quoteJsonFormat: QuoteJson) -> Quote {
+        Quote(
+            id: quoteJsonFormat.id,
+            text: quoteJsonFormat.text,
+            author: quoteJsonFormat.author,
+            isFavorite: quoteJsonFormat.isFavorite
+        )
+    }
 }

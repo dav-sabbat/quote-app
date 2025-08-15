@@ -19,9 +19,8 @@ class SwitchIsFavoriteFlag: UseCase {
 
     func execute() throws {
         if let id = id {
-            if let quote = try quoteRepository.fetch(by: id) {
-                try quoteRepository.setIsFavorite(id: id, isFavorite: !quote.isFavorite)
-            }
+            let quote = try quoteRepository.fetch(by: id)
+            try quoteRepository.setIsFavorite(id: id, isFavorite: !quote.isFavorite)
         } else {
             throw SwitchIsFavoriteFlagError.idIsNil
         }

@@ -26,6 +26,10 @@ class QuoteAppSceneDIContainer {
             switchIsFavoriteFlag: makeSwitchIsFavoriteFlag()
         )
     }
+    
+    func makeFavoriteQuoteListViewModel() -> FavoriteQuoteListViewModel {
+        FavoriteQuoteListViewModel(getAllFavoriteQuotes: makeGetAllFavoriteQuotes())
+    }
 
     // MARK: Use Cases
 
@@ -35,5 +39,9 @@ class QuoteAppSceneDIContainer {
 
     func makeSwitchIsFavoriteFlag() -> SwitchIsFavoriteFlag {
         SwitchIsFavoriteFlag(quoteRepository: quoteRepository)
+    }
+    
+    func makeGetAllFavoriteQuotes() -> GetAllFavoriteQuotes {
+        GetAllFavoriteQuotes(quoteRepository: quoteRepository)
     }
 }
