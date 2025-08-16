@@ -17,6 +17,25 @@ final class InMemoryQuoteRepositoryTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    // MARK: fetch()
+    
+    func testFetchQuoteInSuccess() throws {
+        // Given
+        let repo = InMemoryQuoteRepository(
+            url: Bundle(for: type(of: self)).url(forResource: dataResource, withExtension: "json")!
+        )
+        
+        // When
+        let quote = try repo.fetch(by: 3)
+        
+        // Then
+        XCTAssert(quote.id == 3, "Id should be 3")
+        XCTAssert(quote.text == "Fais de ta vie un rêve, et d’un rêve, une réalité.", "Quote text should be the right one")
+        XCTAssert(quote.author == "Antoine de Saint-Exupéry")
+    }
+    
+    // MARK: fetchAll()
 
     func testfetchAllQuotesInSuccess() throws {
         // Given
@@ -31,6 +50,8 @@ final class InMemoryQuoteRepositoryTests: XCTestCase {
         XCTAssert(quotes.count == 26, "Make sure it retrieves 26 quotes from a data file")
         XCTAssert(quotes.first!.author == "Albert Einstein", "Make sure the first quote of the list of from Albert Einstein")
     }
+    
+    // MARK: fetchAllFavoriteQuotes()
     
     func testfetchAllFavoriteQuotesInSuccess() throws {
         // Given
@@ -48,6 +69,8 @@ final class InMemoryQuoteRepositoryTests: XCTestCase {
         XCTAssert(quotes.last!.id == 25, "Make sure the last favorite quote of the file is id=25")
     }
     
+    // MARK: fetchAllNotFavoriteQuotes()
+    
     func testfetchAllNotFavoriteQuotesInSuccess() throws {
         // Given
         let repo = InMemoryQuoteRepository(
@@ -63,6 +86,8 @@ final class InMemoryQuoteRepositoryTests: XCTestCase {
         XCTAssert(quotes.first!.isFavorite == false, "Make sure the first favorite quote has the prop isFavorite set to true")
         XCTAssert(quotes.last!.id == 26, "Make sure the last favorite quote of the file is id=25")
     }
+    
+    // MARK: setIsFavorite()
     
     func testSetIsFavoriteFlagFromFalseToTrueInSuccess() throws {
         // Given
