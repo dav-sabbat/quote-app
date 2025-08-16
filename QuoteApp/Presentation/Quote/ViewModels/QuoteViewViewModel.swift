@@ -8,18 +8,20 @@
 import SwiftUI
 
 class QuoteViewViewModel: ObservableObject {
-    let getRandomQuote: GetRandomQuote
+    let getNotFavoriteRandomQuote: GetNotFavoriteRandomQuote
     let switchIsFavoriteFlag: SwitchIsFavoriteFlag
+    let getQuoteById: GetQuoteById
     @Published var quote: QuoteUIModel?
 
-    init(getRandomQuote: GetRandomQuote, switchIsFavoriteFlag: SwitchIsFavoriteFlag) {
-        self.getRandomQuote = getRandomQuote
+    init(getNotFavoriteRandomQuote: GetNotFavoriteRandomQuote, switchIsFavoriteFlag: SwitchIsFavoriteFlag, getQuoteById: GetQuoteById) {
+        self.getNotFavoriteRandomQuote = getNotFavoriteRandomQuote
         self.switchIsFavoriteFlag = switchIsFavoriteFlag
+        self.getQuoteById = getQuoteById
     }
 
     func fetchRandomQuote() {
         do {
-            let quote = try getRandomQuote.execute()
+            let quote = try getNotFavoriteRandomQuote.execute()
             self.quote = QuoteUIModel(
                 id: quote.id,
                 text: quote.text,
@@ -33,9 +35,15 @@ class QuoteViewViewModel: ObservableObject {
 
     func switchIsFavorite() {
         if let quote = quote {
-            switchIsFavoriteFlag.id = quote.id
-            try? switchIsFavoriteFlag.execute()
-            self.quote?.isFavorite = !quote.isFavorite
+            try? switchIsFavoriteFlag.execute(id: quote.id)
+            if let updatedQuote = try? getQuoteById.execute(id: quote.id) {
+                self.quote = QuoteUIModel(
+                    id: updatedQuote.id,
+                    text: updatedQuote.text,
+                    author: updatedQuote.author,
+                    isFavorite: updatedQuote.isFavorite
+                )
+            }
         }
     }
 }

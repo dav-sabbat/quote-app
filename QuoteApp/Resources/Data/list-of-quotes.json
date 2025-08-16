@@ -3,7 +3,7 @@
         "id": 1,
         "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
         "author": "Albert Einstein",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "id": 3,
         "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
         "author": "Antoine de Saint-Exupéry",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 4,
@@ -27,7 +27,7 @@
         "id": 5,
         "text": "La simplicité est la sophistication suprême.",
         "author": "Leonard de Vinci",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 6,
@@ -39,7 +39,7 @@
         "id": 7,
         "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
         "author": "Antoine de Saint-Exupéry",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 8,
@@ -51,7 +51,7 @@
         "id": 9,
         "text": "Agis comme s’il était impossible d’échouer.",
         "author": "Winston Churchill",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 10,
@@ -63,7 +63,7 @@
         "id": 11,
         "text": "Rêve grand, commence petit, mais commence.",
         "author": "Simon Sinek",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 12,
@@ -75,7 +75,7 @@
         "id": 13,
         "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
         "author": "Albert Einstein",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 14,
@@ -87,7 +87,7 @@
         "id": 15,
         "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
         "author": "Henry Ford",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 16,
@@ -99,7 +99,7 @@
         "id": 17,
         "text": "Tout ce qui ne te tue pas te rend plus fort.",
         "author": "Friedrich Nietzsche",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 18,
@@ -111,7 +111,7 @@
         "id": 19,
         "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
         "author": "Nelson Mandela",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 20,
@@ -121,39 +121,5881 @@
     },
     {
         "id": 21,
-        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours",
-        "author": "Gandhi",
-        "isFavorite": true
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
     },
     {
         "id": 22,
-        "text": "Les enfants seuls savent ce qu'ils cherchent",
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
         "author": "Antoine de Saint-Exupéry",
         "isFavorite": false
     },
     {
         "id": 23,
-        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit",
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
         "author": "Joëlle Laurencin",
-        "isFavorite": true
+        "isFavorite": false
     },
     {
         "id": 24,
-        "text": "Vis le présent, et les souvenirs t'accompagneront",
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
         "author": "Nabil Alami",
         "isFavorite": false
     },
     {
         "id": 25,
-        "text": "Une photographie est un souvenir en hibernation qui nie l'écoulement du temps",
-        "author": "André Hardellet",
-        "originTitle": "Le parc des Archers",
-        "originYear": "1972",
-        "isFavorite": true
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
     },
     {
         "id": 26,
-        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles",
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 27,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 28,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 29,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 30,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 31,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 32,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 33,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 34,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 35,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 36,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 37,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 38,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 39,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 40,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 41,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 42,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 43,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 44,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 45,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 46,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 47,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 48,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 49,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 50,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 51,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 52,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 53,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 54,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 55,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 56,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 57,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 58,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 59,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 60,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 61,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 62,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 63,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 64,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 65,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 66,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 67,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 68,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 69,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 70,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 71,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": true
+    },
+    {
+        "id": 72,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 73,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 74,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 75,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 76,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 77,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 78,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 79,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 80,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 81,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 82,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 83,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 84,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 85,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 86,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 87,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 88,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 89,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 90,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 91,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 92,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 93,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 94,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 95,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 96,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 97,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 98,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 99,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 100,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 101,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 102,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 103,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 104,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 105,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 106,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 107,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 108,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 109,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 110,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 111,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 112,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 113,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 114,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 115,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 116,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 117,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 118,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 119,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 120,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 121,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 122,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 123,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 124,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 125,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 126,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 127,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 128,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 129,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 130,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 131,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 132,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 133,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 134,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 135,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 136,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 137,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 138,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 139,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 140,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 141,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 142,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 143,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 144,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 145,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 146,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 147,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 148,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 149,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 150,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 151,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 152,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 153,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 154,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 155,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 156,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 157,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 158,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 159,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 160,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 161,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 162,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 163,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 164,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 165,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 166,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 167,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 168,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 169,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 170,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 171,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 172,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 173,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 174,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 175,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 176,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 177,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 178,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 179,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 180,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 181,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 182,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 183,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 184,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 185,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 186,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 187,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 188,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 189,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 190,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 191,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 192,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 193,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 194,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 195,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 196,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 197,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 198,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 199,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 200,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 201,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 202,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 203,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 204,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 205,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 206,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 207,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 208,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 209,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 210,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 211,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 212,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 213,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 214,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 215,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 216,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 217,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 218,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 219,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 220,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 221,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 222,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 223,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 224,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 225,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 226,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 227,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 228,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 229,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 230,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 231,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 232,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 233,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 234,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 235,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 236,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 237,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 238,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 239,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 240,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 241,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 242,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 243,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 244,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 245,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 246,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 247,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 248,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 249,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 250,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 251,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 252,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 253,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 254,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 255,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 256,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 257,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 258,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 259,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 260,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 261,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 262,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 263,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 264,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 265,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 266,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 267,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 268,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 269,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 270,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 271,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 272,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 273,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 274,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 275,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 276,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 277,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 278,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 279,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 280,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 281,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 282,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 283,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 284,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 285,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 286,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 287,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 288,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 289,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 290,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 291,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 292,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 293,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 294,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 295,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 296,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 297,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 298,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 299,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 300,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 301,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 302,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 303,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 304,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 305,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 306,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 307,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 308,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 309,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 310,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 311,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 312,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 313,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 314,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 315,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 316,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 317,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 318,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 319,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 320,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 321,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 322,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 323,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 324,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 325,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 326,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 327,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 328,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 329,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 330,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 331,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 332,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 333,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 334,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 335,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 336,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 337,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 338,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 339,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 340,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 341,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 342,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 343,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 344,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 345,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 346,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 347,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 348,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 349,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 350,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 351,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 352,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 353,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 354,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 355,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 356,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 357,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 358,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 359,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 360,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 361,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 362,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 363,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 364,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 365,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 366,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 367,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 368,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 369,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 370,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 371,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 372,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 373,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 374,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 375,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": true
+    },
+    {
+        "id": 376,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 377,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 378,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 379,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 380,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 381,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 382,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 383,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 384,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 385,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 386,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 387,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 388,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 389,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 390,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 391,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 392,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 393,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 394,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 395,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 396,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 397,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 398,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 399,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 400,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 401,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 402,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 403,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 404,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 405,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 406,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 407,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 408,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 409,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 410,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 411,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 412,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 413,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 414,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 415,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 416,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 417,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 418,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 419,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 420,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 421,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 422,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 423,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 424,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 425,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 426,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 427,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 428,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 429,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 430,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 431,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 432,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 433,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 434,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 435,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 436,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 437,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 438,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 439,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 440,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 441,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 442,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 443,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 444,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 445,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 446,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 447,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 448,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 449,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 450,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 451,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 452,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 453,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 454,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 455,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 456,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 457,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 458,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 459,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 460,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 461,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 462,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 463,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 464,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 465,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 466,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 467,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 468,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 469,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 470,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 471,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 472,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 473,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 474,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 475,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 476,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 477,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 478,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 479,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 480,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 481,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 482,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 483,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 484,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 485,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 486,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 487,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 488,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 489,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 490,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 491,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 492,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 493,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 494,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 495,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 496,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 497,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 498,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 499,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 500,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 501,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 502,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 503,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 504,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 505,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 506,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 507,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 508,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 509,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 510,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 511,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 512,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 513,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 514,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 515,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 516,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 517,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 518,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 519,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 520,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 521,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 522,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 523,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 524,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 525,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 526,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 527,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 528,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 529,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 530,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 531,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 532,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 533,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 534,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 535,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 536,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 537,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 538,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 539,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 540,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 541,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 542,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 543,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 544,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 545,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 546,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 547,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 548,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 549,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 550,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 551,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 552,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 553,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 554,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 555,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 556,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 557,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 558,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 559,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 560,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 561,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 562,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 563,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 564,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 565,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 566,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 567,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 568,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 569,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 570,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 571,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 572,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 573,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 574,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 575,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 576,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 577,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 578,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 579,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 580,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 581,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 582,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 583,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 584,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 585,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 586,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 587,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 588,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 589,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 590,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 591,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 592,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 593,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 594,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 595,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 596,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 597,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 598,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 599,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 600,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 601,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 602,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 603,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 604,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 605,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 606,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 607,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 608,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 609,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 610,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 611,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 612,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 613,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 614,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 615,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 616,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 617,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 618,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 619,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 620,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 621,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 622,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 623,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 624,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 625,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 626,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 627,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 628,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 629,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 630,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 631,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 632,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 633,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 634,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 635,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 636,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 637,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 638,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 639,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 640,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 641,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 642,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 643,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 644,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 645,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 646,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 647,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 648,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 649,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 650,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 651,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 652,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 653,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 654,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 655,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 656,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 657,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 658,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 659,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 660,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 661,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 662,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 663,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 664,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 665,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 666,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 667,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 668,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 669,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 670,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 671,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 672,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 673,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 674,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 675,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 676,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 677,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 678,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 679,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 680,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 681,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 682,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 683,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 684,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 685,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 686,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 687,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 688,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 689,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 690,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 691,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 692,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 693,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 694,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 695,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 696,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 697,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 698,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 699,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 700,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 701,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 702,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": true
+    },
+    {
+        "id": 703,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 704,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 705,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 706,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 707,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 708,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 709,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 710,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 711,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 712,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 713,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 714,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 715,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 716,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 717,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 718,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 719,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 720,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 721,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 722,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 723,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 724,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 725,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 726,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 727,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 728,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 729,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 730,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 731,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 732,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 733,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 734,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 735,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 736,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 737,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 738,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 739,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 740,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 741,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 742,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 743,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 744,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 745,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 746,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 747,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 748,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 749,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 750,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 751,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 752,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 753,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 754,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 755,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 756,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 757,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 758,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 759,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 760,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 761,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 762,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 763,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 764,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 765,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 766,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 767,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 768,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 769,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 770,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 771,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 772,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 773,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 774,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 775,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 776,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 777,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 778,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 779,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 780,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 781,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 782,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 783,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 784,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 785,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 786,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 787,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 788,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 789,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 790,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 791,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 792,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 793,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 794,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 795,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 796,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 797,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 798,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 799,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 800,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 801,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 802,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 803,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 804,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 805,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 806,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 807,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 808,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 809,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 810,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 811,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 812,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 813,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 814,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 815,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 816,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 817,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 818,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 819,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 820,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 821,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 822,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 823,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 824,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 825,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 826,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 827,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 828,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 829,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 830,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 831,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 832,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 833,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 834,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 835,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 836,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 837,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 838,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 839,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 840,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 841,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 842,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 843,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 844,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 845,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 846,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 847,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 848,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 849,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 850,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 851,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 852,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 853,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 854,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 855,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 856,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 857,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 858,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 859,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 860,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 861,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 862,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 863,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 864,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 865,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 866,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 867,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 868,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 869,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 870,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 871,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 872,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 873,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 874,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 875,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 876,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 877,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 878,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 879,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 880,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 881,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 882,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 883,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 884,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 885,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 886,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 887,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 888,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 889,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 890,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 891,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 892,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 893,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 894,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 895,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 896,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 897,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 898,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 899,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 900,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 901,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 902,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 903,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 904,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 905,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 906,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 907,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 908,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 909,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 910,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 911,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 912,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 913,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 914,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 915,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 916,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 917,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 918,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 919,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 920,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 921,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 922,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 923,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 924,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 925,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 926,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 927,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 928,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 929,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 930,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 931,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 932,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 933,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 934,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 935,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 936,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 937,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 938,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 939,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 940,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 941,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 942,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 943,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 944,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 945,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 946,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 947,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 948,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 949,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 950,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 951,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 952,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 953,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 954,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 955,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 956,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 957,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 958,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 959,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 960,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 961,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 962,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 963,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 964,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 965,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 966,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 967,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 968,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 969,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 970,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 971,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 972,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 973,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 974,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 975,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
+        "author": "Oscar Wilde",
+        "isFavorite": false
+    },
+    {
+        "id": 976,
+        "text": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 977,
+        "text": "Le succès est la somme de petits efforts répétés jour après jour.",
+        "author": "Robert Collier",
+        "isFavorite": false
+    },
+    {
+        "id": 978,
+        "text": "Fais de ta vie un rêve, et d’un rêve, une réalité.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 979,
+        "text": "Celui qui déplace une montagne commence par déplacer de petites pierres.",
+        "author": "Confucius",
+        "isFavorite": false
+    },
+    {
+        "id": 980,
+        "text": "La simplicité est la sophistication suprême.",
+        "author": "Leonard de Vinci",
+        "isFavorite": false
+    },
+    {
+        "id": 981,
+        "text": "Tout ce que l’esprit peut concevoir et croire, il peut l’accomplir.",
+        "author": "Napoleon Hill",
+        "isFavorite": false
+    },
+    {
+        "id": 982,
+        "text": "On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 983,
+        "text": "Ne crains pas d’avancer lentement, crains seulement de t’arrêter.",
+        "author": "Proverbe chinois",
+        "isFavorite": false
+    },
+    {
+        "id": 984,
+        "text": "Agis comme s’il était impossible d’échouer.",
+        "author": "Winston Churchill",
+        "isFavorite": false
+    },
+    {
+        "id": 985,
+        "text": "La meilleure façon de prédire l’avenir est de le créer.",
+        "author": "Peter Drucker",
+        "isFavorite": false
+    },
+    {
+        "id": 986,
+        "text": "Rêve grand, commence petit, mais commence.",
+        "author": "Simon Sinek",
+        "isFavorite": false
+    },
+    {
+        "id": 987,
+        "text": "Le bonheur n’est pas quelque chose de prêt à l’emploi. Il vient de vos propres actions.",
+        "author": "Dalaï Lama",
+        "isFavorite": false
+    },
+    {
+        "id": 988,
+        "text": "Si vous voulez vivre une vie heureuse, attachez-la à un but, non pas à des personnes ou des choses.",
+        "author": "Albert Einstein",
+        "isFavorite": false
+    },
+    {
+        "id": 989,
+        "text": "Ne juge pas chaque jour à la récolte que tu fais mais aux graines que tu sèmes.",
+        "author": "Robert Louis Stevenson",
+        "isFavorite": false
+    },
+    {
+        "id": 990,
+        "text": "L’échec est simplement l’opportunité de recommencer, cette fois plus intelligemment.",
+        "author": "Henry Ford",
+        "isFavorite": false
+    },
+    {
+        "id": 991,
+        "text": "La seule limite à notre épanouissement de demain sera nos doutes d’aujourd’hui.",
+        "author": "Franklin D. Roosevelt",
+        "isFavorite": false
+    },
+    {
+        "id": 992,
+        "text": "Tout ce qui ne te tue pas te rend plus fort.",
+        "author": "Friedrich Nietzsche",
+        "isFavorite": false
+    },
+    {
+        "id": 993,
+        "text": "Ce n’est pas la force, mais la persévérance qui fait les grandes œuvres.",
+        "author": "Samuel Johnson",
+        "isFavorite": false
+    },
+    {
+        "id": 994,
+        "text": "Le courage n’est pas l’absence de peur, mais la capacité de la vaincre.",
+        "author": "Nelson Mandela",
+        "isFavorite": false
+    },
+    {
+        "id": 995,
+        "text": "Il n’y a qu’une façon d’échouer, c’est d’abandonner avant d’avoir réussi.",
+        "author": "Georges Clemenceau",
+        "isFavorite": false
+    },
+    {
+        "id": 996,
+        "text": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
+        "author": "Mahatma Gandhi",
+        "isFavorite": false
+    },
+    {
+        "id": 997,
+        "text": "Les enfants seuls savent ce qu'ils cherchent.",
+        "author": "Antoine de Saint-Exupéry",
+        "isFavorite": false
+    },
+    {
+        "id": 998,
+        "text": "La beauté de l'instant présent n'a pas de prix. Elle ne s'explique pas, elle se ressent et se vit.",
+        "author": "Joëlle Laurencin",
+        "isFavorite": false
+    },
+    {
+        "id": 999,
+        "text": "Vis le présent, et les souvenirs t'accompagneront.",
+        "author": "Nabil Alami",
+        "isFavorite": false
+    },
+    {
+        "id": 1000,
+        "text": "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles.",
         "author": "Oscar Wilde",
         "isFavorite": false
     }
