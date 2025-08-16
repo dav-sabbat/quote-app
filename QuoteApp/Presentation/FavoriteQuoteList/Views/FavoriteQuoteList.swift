@@ -8,42 +8,67 @@
 import SwiftUI
 
 struct FavoriteQuoteList: View {
+    @State var filter: QuoteViewFilterType = .quotes
     @ObservedObject var favoriteQuoteListViewModel: FavoriteQuoteListViewModel
 
     var body: some View {
-        VStack {
-            HStack {
-                Spacer()
-                Button("Quotes") {}
-                Spacer()
-                Button("Author") {}
-                Spacer()
-                Button("Tags") {}
-                Spacer()
-            }
-            List {
-                if let quoteList = favoriteQuoteListViewModel.quoteList {
-                    ForEach(quoteList) { quote in
-                        FavoriteQuoteListRow(
-                            id: quote.id,
-                            text: quote.text,
-                            author: quote.author,
-                            isFavorite: quote.isFavorite,
-                            favoriteQuoteListViewModel: favoriteQuoteListViewModel
-                        )
+        NavigationStack {
+            VStack {
+                HorizontalMenu(
+                    filter: $filter,
+                    favoriteQuoteListViewModel: favoriteQuoteListViewModel
+                )
+                ZStack {
+                    List {
+                        if let quoteList = favoriteQuoteListViewModel.quoteList {
+                            ForEach(quoteList) { quote in
+                                FavoriteQuoteListRow(
+                                    id: quote.id,
+                                    text: quote.text,
+                                    author: quote.author,
+                                    isFavorite: quote.isFavorite,
+                                    favoriteQuoteListViewModel: favoriteQuoteListViewModel
+                                )
+                            }
+                        }
                     }
+                    .opacity(filter == .quotes ? 1 : 0)
+                    .listStyle(.plain)
+                    List {
+                        if let authorList: [AuthorUIModel] = favoriteQuoteListViewModel.authorList {
+                            ForEach(authorList) { (author: AuthorUIModel) in
+                                VStack(alignment: .leading) {
+                                    Text(author.fullName)
+                                    Text("\(author.numberOfQuotes) quote\(author.numberOfQuotes > 1 ? "s" : "")")
+                                        .font(.subheadline)
+                                        .foregroundStyle(.gray)
+                                }
+                            }
+                        }
+                    }
+                    .opacity(filter == .author ? 1 : 0)
+                    .listStyle(.plain)
                 }
             }
-            .listStyle(.plain)
-        }
-        .background(content: {
-            Color.background
-                .ignoresSafeArea()
-        })
-        .task {
-            favoriteQuoteListViewModel.fetchQuoteFavoriteList()
+            .padding([.top])
+            .background(content: {
+                Color.background
+                    .ignoresSafeArea()
+            }).navigationTitle("mes favoris")
+            .task {
+                if filter == .quotes {
+                    favoriteQuoteListViewModel.fetchQuoteFavoriteList()
+                } else if filter == .author {
+                    favoriteQuoteListViewModel.fetchAuthorListOfFavoriteQuotes()
+                }
+            }
         }
     }
+}
+
+enum QuoteViewFilterType {
+    case quotes
+    case author
 }
 
 struct FavoriteQuoteListRow: View {
@@ -51,8 +76,7 @@ struct FavoriteQuoteListRow: View {
     let text: String
     let author: String
     @State var isFavorite: Bool
-    
-    // Todo: Pass une completion ici ?
+
     @ObservedObject var favoriteQuoteListViewModel: FavoriteQuoteListViewModel
 
     var body: some View {
@@ -75,6 +99,50 @@ struct FavoriteQuoteListRow: View {
             } label: {
                 Image(systemName: "heart\(isFavorite == true ? ".fill" : "")")
             }
+            .buttonStyle(PlainButtonStyle()) // make only the button clickable, not the entire row
+        }
+    }
+}
+
+struct HorizontalMenu: View {
+    @Binding var filter: QuoteViewFilterType
+    @ObservedObject var favoriteQuoteListViewModel: FavoriteQuoteListViewModel
+
+    var body: some View {
+        HStack {
+            Spacer()
+            VStack {
+                Button {
+                    withAnimation {
+                        filter = .quotes
+                        favoriteQuoteListViewModel.fetchQuoteFavoriteList()
+                    }
+                } label: {
+                    Text("Quotes")
+                        .fontWeight(filter != .quotes ? .regular : .bold)
+                }
+                Rectangle()
+                    .fill(Color.blue)
+                    .frame(width: 100, height: 2)
+                    .opacity(filter != .quotes ? 0 : 1)
+            }
+            Spacer()
+            VStack {
+                Button {
+                    withAnimation {
+                        filter = .author
+                        favoriteQuoteListViewModel.fetchAuthorListOfFavoriteQuotes()
+                    }
+                } label: {
+                    Text("Author")
+                        .fontWeight(filter != .author ? .regular : .bold)
+                }
+                Rectangle()
+                    .fill(Color.blue)
+                    .frame(width: 100, height: 2)
+                    .opacity(filter != .author ? 0 : 1)
+            }
+            Spacer()
         }
     }
 }

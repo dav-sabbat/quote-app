@@ -44,11 +44,26 @@
 				Domain/Entities/Quote.swift,
 				Domain/Interfaces/Repositories/QuoteRepository.swift,
 				Domain/UseCases/GetAllFavoriteQuotes.swift,
+				Domain/UseCases/SwitchIsFavoriteFlag.swift,
 				Domain/UseCases/UseCase.swift,
+				Presentation/FavoriteQuoteList/ViewModels/FavoriteQuoteListViewModel.swift,
+				Presentation/UIModel/AuthorUIModel.swift,
+				Presentation/UIModel/QuoteUIModel.swift,
 			);
 			target = 6377F1B12E48E07E00366395 /* QuoteAppTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		63862E8E2E50A95900FACFB8 /* Exceptions for "QuoteAppTests" folder in "Compile Sources" phase from "QuoteAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 6377F1AE2E48E07E00366395 /* Sources */;
+			membershipExceptions = (
+				"Resources/list-of-quotes-with-3-different-authors 2.json",
+				"Resources/list-of-quotes-with-3-different-authors.json",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6377F1A42E48E07D00366395 /* QuoteApp */ = {
@@ -65,6 +80,9 @@
 		};
 		6377F1B52E48E07E00366395 /* QuoteAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				63862E8E2E50A95900FACFB8 /* Exceptions for "QuoteAppTests" folder in "Compile Sources" phase from "QuoteAppTests" target */,
+			);
 			explicitFileTypes = {
 				"Resources/list-of-one-quote-with-is-favorite-at-false.json" = text.json;
 				"Resources/list-of-one-quote-with-is-favorite-at-true.json" = text.json;

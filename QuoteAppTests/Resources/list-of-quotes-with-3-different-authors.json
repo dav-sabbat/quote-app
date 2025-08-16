@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "text": "Quote1 of author1",
+        "author": "author1",
+        "isFavorite": true
+    },
+    {
+        "id": 2,
+        "text": "Quote2 of author2",
+        "author": "author2",
+        "isFavorite": true
+    },
+    {
+        "id": 3,
+        "text": "Quote3 of author3",
+        "author": "author3",
+        "isFavorite": true
+    },
+    {
+        "id": 4,
+        "text": "Quote4 of author1",
+        "author": "author1",
+        "isFavorite": true
+    },
+    {
+        "id": 5,
+        "text": "Quote5 of author1",
+        "author": "author1",
+        "isFavorite": true
+    },
+    {
+        "id": 6,
+        "text": "Quote6 of author2",
+        "author": "author2",
+        "isFavorite": true
+    },
+    {
+        "id": 7,
+        "text": "Quote7 of author4 should not be in the list because is not favorite",
+        "author": "author2",
+        "isFavorite": false
+    }
+]
+
