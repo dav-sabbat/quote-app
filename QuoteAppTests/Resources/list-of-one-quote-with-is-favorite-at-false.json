@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+            "text": "Text of the quote with isFavorite flag at false.",
+            "author": "author of the quote",
+            "isFavorite": false
+    }
+]

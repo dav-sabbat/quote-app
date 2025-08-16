@@ -42,10 +42,72 @@ final class InMemoryQuoteRepositoryTests: XCTestCase {
         let quotes = try repo.fetchAllFavoriteQuotes()
 
         // Then
-        XCTAssert(quotes.count == 13, "Make sure it retrieves 13 favorite quotes from a data file")
+        XCTAssert(quotes.count == 14, "Make sure it retrieves 13 favorite quotes from a data file")
         XCTAssert(quotes.first!.id == 1, "Make sure the first favorite quote of the file is id=1")
         XCTAssert(quotes.first!.isFavorite == true, "Make sure the first favorite quote has the prop isFavorite set to true")
         XCTAssert(quotes.last!.id == 25, "Make sure the last favorite quote of the file is id=25")
+    }
+    
+    func testfetchAllNotFavoriteQuotesInSuccess() throws {
+        // Given
+        let repo = InMemoryQuoteRepository(
+            url: Bundle(for: type(of: self)).url(forResource: dataResource, withExtension: "json")!
+        )
+
+        // When
+        let quotes = try repo.fetchAllNotFavoriteQuotes()
+
+        // Then
+        XCTAssert(quotes.count == 12, "Make sure it retrieves 13 favorite quotes from a data file")
+        XCTAssert(quotes.first!.id == 4, "Make sure the first favorite quote of the file is id=1")
+        XCTAssert(quotes.first!.isFavorite == false, "Make sure the first favorite quote has the prop isFavorite set to true")
+        XCTAssert(quotes.last!.id == 26, "Make sure the last favorite quote of the file is id=25")
+    }
+    
+    func testSetIsFavoriteFlagFromFalseToTrueInSuccess() throws {
+        // Given
+        let repo = InMemoryQuoteRepository(
+            url: Bundle(for: type(of: self)).url(forResource: "list-of-one-quote-with-is-favorite-at-false", withExtension: "json")!
+        )
+        
+        // When
+        let quote = try repo.fetchAll().first!
+        try repo.setIsFavorite(id: quote.id, isFavorite: true)
+        
+        // Then
+        let quoteModified = try repo.fetch(by: quote.id)
+        XCTAssert(quoteModified.isFavorite == true, "Modify the isFavorite flag from false to true in success")
+    }
+    
+    func testSetIsFavoriteFlagFromTrueToFalseInSuccess() throws {
+        // Given
+        let repo = InMemoryQuoteRepository(
+            url: Bundle(for: type(of: self)).url(forResource: "list-of-one-quote-with-is-favorite-at-true", withExtension: "json")!
+        )
+        
+        // When
+        let quote = try repo.fetchAll().first!
+        try repo.setIsFavorite(id: quote.id, isFavorite: false)
+        
+        // Then
+        let quoteModified = try repo.fetch(by: quote.id)
+        XCTAssert(quoteModified.isFavorite == false, "Modify the isFavorite flag from true to false in success")
+    }
+    
+    func testSetIsFavoriteFlagInSuccess() throws {
+        // Given
+        let repo = InMemoryQuoteRepository(
+            url: Bundle(for: type(of: self)).url(forResource: dataResource, withExtension: "json")!
+        )
+        
+        // When
+        let quote = try repo.fetchAll().first!
+        let isFavoriteFlagOriginalValue = quote.isFavorite
+        try repo.setIsFavorite(id: quote.id, isFavorite: !isFavoriteFlagOriginalValue)
+        
+        // Then
+        let quoteModified = try repo.fetch(by: quote.id)
+        XCTAssert(isFavoriteFlagOriginalValue == !quoteModified.isFavorite, "Modify the isFavorite flag in success")
     }
 
     func testPerformanceExample() throws {

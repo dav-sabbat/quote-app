@@ -21,8 +21,8 @@ class InMemoryQuoteRepository: QuoteRepository {
     }
 
     func fetch(by id: Int) throws -> Quote {
-        convert(from:
-            quoteJsonList.first { $0.id == id }!
+        convert(
+            from: quoteJsonList.first { $0.id == id }!
         )
     }
 
@@ -37,9 +37,17 @@ class InMemoryQuoteRepository: QuoteRepository {
             .filter { $0.isFavorite == true }
             .map { convert(from: $0) }
     }
+    
+    func fetchAllNotFavoriteQuotes() throws -> [Quote] {
+        quoteJsonList
+            .filter { $0.isFavorite == false }
+            .map { convert(from: $0) }
+    }
 
     func setIsFavorite(id: Int, isFavorite: Bool) throws {
-        try (fetch(by: id)).isFavorite = isFavorite
+        quoteJsonList
+            .first { $0.id == id }!
+            .isFavorite = isFavorite
     }
 }
 
@@ -55,7 +63,7 @@ extension InMemoryQuoteRepository {
         let id: Int
         let text: String
         let author: String
-        let isFavorite: Bool
+        var isFavorite: Bool
     }
 }
 

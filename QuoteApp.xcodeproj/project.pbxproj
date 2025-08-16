@@ -66,7 +66,9 @@
 		6377F1B52E48E07E00366395 /* QuoteAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			explicitFileTypes = {
-				"Resource/list-of-random-26-quotes.json" = text.json;
+				"Resources/list-of-one-quote-with-is-favorite-at-false.json" = text.json;
+				"Resources/list-of-one-quote-with-is-favorite-at-true.json" = text.json;
+				"Resources/list-of-random-26-quotes.json" = text.json;
 			};
 			path = QuoteAppTests;
 			sourceTree = "<group>";

@@ -24,12 +24,22 @@ struct FavoriteQuoteList: View {
             List {
                 if let quoteList = favoriteQuoteListViewModel.quoteList {
                     ForEach(quoteList) { quote in
-                        FavoriteQuoteListRow(text: quote.text, author: quote.author, isFavorite: quote.isFavorite)
+                        FavoriteQuoteListRow(
+                            id: quote.id,
+                            text: quote.text,
+                            author: quote.author,
+                            isFavorite: quote.isFavorite,
+                            favoriteQuoteListViewModel: favoriteQuoteListViewModel
+                        )
                     }
                 }
             }
             .listStyle(.plain)
         }
+        .background(content: {
+            Color.background
+                .ignoresSafeArea()
+        })
         .task {
             favoriteQuoteListViewModel.fetchQuoteFavoriteList()
         }
@@ -37,21 +47,34 @@ struct FavoriteQuoteList: View {
 }
 
 struct FavoriteQuoteListRow: View {
+    let id: Int
     let text: String
     let author: String
-    let isFavorite: Bool
+    @State var isFavorite: Bool
+    
+    // Todo: Pass une completion ici ?
+    @ObservedObject var favoriteQuoteListViewModel: FavoriteQuoteListViewModel
 
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
                 Text(text)
+                    .font(.custom("Hanken Grotesk", size: 17, relativeTo: .body))
+                    .italic()
                 HStack {
                     Spacer()
                     Text(author)
+                        .foregroundStyle(.gray)
                 }
+                .font(.subheadline)
             }
             Spacer()
-            Image(systemName: "heart\(isFavorite == true ? ".fill" : "")")
+            Button {
+                favoriteQuoteListViewModel.switchIsFavoriteFlag(quoteId: id)
+                isFavorite = !isFavorite // It allows the row to stay in the list until the list is reloaded
+            } label: {
+                Image(systemName: "heart\(isFavorite == true ? ".fill" : "")")
+            }
         }
     }
 }
@@ -59,6 +82,10 @@ struct FavoriteQuoteListRow: View {
 #Preview {
     let quoteRepository = InMemoryQuoteRepository(url: Bundle.main.url(forResource: "list-of-quotes", withExtension: "json")!)
     let getAllFavoriteQuotes = GetAllFavoriteQuotes(quoteRepository: quoteRepository)
-    let favoriteQuoteListViewModel = FavoriteQuoteListViewModel(getAllFavoriteQuotes: getAllFavoriteQuotes)
+    let switchIsFavoriteFlag = SwitchIsFavoriteFlag(quoteRepository: quoteRepository)
+    let favoriteQuoteListViewModel = FavoriteQuoteListViewModel(
+        getAllFavoriteQuotes: getAllFavoriteQuotes,
+        switchIsFavoriteFlag: switchIsFavoriteFlag
+    )
     FavoriteQuoteList(favoriteQuoteListViewModel: favoriteQuoteListViewModel)
 }

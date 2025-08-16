@@ -22,26 +22,34 @@ class QuoteAppSceneDIContainer {
 
     func makeQuoteViewViewModel() -> QuoteViewViewModel {
         QuoteViewViewModel(
-            getRandomQuote: makeGetRandomQuote(),
-            switchIsFavoriteFlag: makeSwitchIsFavoriteFlag()
+            getNotFavoriteRandomQuote: makeGetNotFavoriteRandomQuote(),
+            switchIsFavoriteFlag: makeSwitchIsFavoriteFlag(),
+            getQuoteById: makeGetQuoteById()
         )
     }
-    
+
     func makeFavoriteQuoteListViewModel() -> FavoriteQuoteListViewModel {
-        FavoriteQuoteListViewModel(getAllFavoriteQuotes: makeGetAllFavoriteQuotes())
+        FavoriteQuoteListViewModel(
+            getAllFavoriteQuotes: makeGetAllFavoriteQuotes(),
+            switchIsFavoriteFlag: makeSwitchIsFavoriteFlag()
+        )
     }
 
     // MARK: Use Cases
 
-    func makeGetRandomQuote() -> GetRandomQuote {
-        GetRandomQuote(quoteRepository: quoteRepository)
+    func makeGetNotFavoriteRandomQuote() -> GetNotFavoriteRandomQuote {
+        GetNotFavoriteRandomQuote(quoteRepository: quoteRepository)
     }
 
     func makeSwitchIsFavoriteFlag() -> SwitchIsFavoriteFlag {
         SwitchIsFavoriteFlag(quoteRepository: quoteRepository)
     }
-    
+
     func makeGetAllFavoriteQuotes() -> GetAllFavoriteQuotes {
         GetAllFavoriteQuotes(quoteRepository: quoteRepository)
+    }
+
+    func makeGetQuoteById() -> GetQuoteById {
+        GetQuoteById(quoteRepository: quoteRepository)
     }
 }
