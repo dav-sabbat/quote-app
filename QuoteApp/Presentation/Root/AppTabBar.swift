@@ -21,16 +21,15 @@ struct AppTabBar: View {
                     Image(systemName: "quote.opening")
                 }
 
-            favoriteQuoteList
-                .tabItem {
-                    Image(systemName: "heart")
-                }
-
             searchView
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
-                
+
+            favoriteQuoteList
+                .tabItem {
+                    Image(systemName: "heart")
+                }
         }
     }
 }

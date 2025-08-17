@@ -14,52 +14,38 @@ struct QuoteView: View {
         VStack(alignment: .leading) {
             HStack { Spacer() }
             Spacer()
-            if let quoteText = quoteViewViewModel.quote?.text {
-                Text(quoteText)
+            if let quote = quoteViewViewModel.quote {
+                Text(quote.text)
                     .font(.custom("Hanken Grotesk", size: 34, relativeTo: .largeTitle))
                     .italic()
-            } else {
-                Text("...")
-            }
-
-            if let author = quoteViewViewModel.quote?.author {
                 HStack {
                     Spacer()
                     Text("de")
                         .foregroundStyle(.gray)
-                    Text(author)
+                    Text(quote.author)
                 }
                 .padding([.top])
-            }
-            Spacer()
-            HStack {
                 Spacer()
-                Image(systemName: "heart")
-                    .font(.title)
+                HStack {
+                    Spacer()
+                    HeartButton(isFavorite: quote.isFavorite) {
+                        quoteViewViewModel.switchIsFavorite()
+                    }
                     .hidden()
-                Spacer()
-                Button(action: {
-                    quoteViewViewModel.fetchRandomQuote()
-                }, label: {
-                    Image(systemName: "arrow.trianglehead.2.clockwise")
-                        .font(.largeTitle)
-                        .foregroundStyle(.black)
-                        .opacity(0.6)
-                })
-                Spacer()
-                Button {
-                    quoteViewViewModel.switchIsFavorite()
-                } label: {
-                    Image(systemName: "heart\(quoteViewViewModel.quote?.isFavorite == true ? ".fill" : "")")
-                        .font(.title)
-                        .foregroundStyle(.black)
-                        .opacity(0.6)
+                    Spacer()
+                    RefreshButton {
+                        quoteViewViewModel.fetchRandomQuote()
+                    }
+                    Spacer()
+                    HeartButton(isFavorite: quote.isFavorite) {
+                        quoteViewViewModel.switchIsFavorite()
+                    }
+                    Spacer()
                 }
-                Spacer()
+                .padding([.bottom])
+                .padding([.bottom])
+                .padding([.bottom])
             }
-            .padding([.bottom])
-            .padding([.bottom])
-            .padding([.bottom])
         }
         .padding([.leading, .trailing])
         .background {
