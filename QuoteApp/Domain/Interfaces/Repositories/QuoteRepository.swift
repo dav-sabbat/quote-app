@@ -12,4 +12,6 @@ protocol QuoteRepository {
     func fetchAllNotFavoriteQuotes() throws -> [Quote]
 
     func setIsFavorite(id: Int, isFavorite: Bool) throws
+
+    func searchQuote(withText text: String) throws -> [Quote]
 }

@@ -35,6 +35,13 @@ class QuoteAppSceneDIContainer {
         )
     }
 
+    func makeSearchViewViewModel() -> SearchViewViewModel {
+        SearchViewViewModel(
+            searchForQuote: makeSearchForQuote(),
+            switchIsFavoriteFlag: makeSwitchIsFavoriteFlag()
+        )
+    }
+
     // MARK: Use Cases
 
     func makeGetNotFavoriteRandomQuote() -> GetNotFavoriteRandomQuote {
@@ -51,5 +58,9 @@ class QuoteAppSceneDIContainer {
 
     func makeGetQuoteById() -> GetQuoteById {
         GetQuoteById(quoteRepository: quoteRepository)
+    }
+
+    func makeSearchForQuote() -> SearchForQuotes {
+        SearchForQuotes(quoteRepository: quoteRepository)
     }
 }

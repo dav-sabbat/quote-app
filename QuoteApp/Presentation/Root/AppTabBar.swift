@@ -14,6 +14,7 @@ struct AppTabBar: View {
     var body: some View {
         let quoteView = quoteAppSceneRouter.makeQuoteView()
         let favoriteQuoteList = quoteAppSceneRouter.makeFavortieQuoteList()
+        let searchView = quoteAppSceneRouter.makeSearchView()
         TabView {
             quoteView
                 .tabItem {
@@ -25,10 +26,11 @@ struct AppTabBar: View {
                     Image(systemName: "heart")
                 }
 
-            Text("Recherche")
+            searchView
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
+                
         }
     }
 }

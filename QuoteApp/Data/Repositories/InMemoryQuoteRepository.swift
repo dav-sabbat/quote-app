@@ -37,7 +37,7 @@ class InMemoryQuoteRepository: QuoteRepository {
             .filter { $0.isFavorite == true }
             .map { convert(from: $0) }
     }
-    
+
     func fetchAllNotFavoriteQuotes() throws -> [Quote] {
         quoteJsonList
             .filter { $0.isFavorite == false }
@@ -48,6 +48,14 @@ class InMemoryQuoteRepository: QuoteRepository {
         quoteJsonList
             .first { $0.id == id }!
             .isFavorite = isFavorite
+    }
+
+    func searchQuote(withText text: String) throws -> [Quote] {
+        try quoteJsonList
+            .filter {
+                try $0.text.contains(Regex(text).ignoresCase())
+            }
+            .map { convert(from: $0) }
     }
 }
 
