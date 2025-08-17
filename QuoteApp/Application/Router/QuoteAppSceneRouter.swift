@@ -21,4 +21,9 @@ class QuoteAppSceneRouter {
         let viewModel = quoteAppSceneDIContainer.makeFavoriteQuoteListViewModel()
         return FavoriteQuoteList(favoriteQuoteListViewModel: viewModel)
     }
+    
+    func makeSearchView() -> SearchView {
+        let viewModel = quoteAppSceneDIContainer.makeSearchViewViewModel()
+        return SearchView(searchViewViewModel: viewModel)
+    }
 }
