@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct FavoriteQuoteList: View {
-    @State var filter: QuoteViewFilterType = .quotes
+    @State private var filter: QuoteViewFilterType = .quotes
+    
     @ObservedObject var favoriteQuoteListViewModel: FavoriteQuoteListViewModel
 
     var body: some View {
@@ -20,29 +21,25 @@ struct FavoriteQuoteList: View {
                 )
                 ZStack {
                     List {
-                        if let quoteList = favoriteQuoteListViewModel.quoteList {
-                            ForEach(quoteList) { quote in
-                                FavoriteQuoteListRow(
-                                    id: quote.id,
-                                    text: quote.text,
-                                    author: quote.author,
-                                    isFavorite: quote.isFavorite,
-                                    favoriteQuoteListViewModel: favoriteQuoteListViewModel
-                                )
-                            }
+                        ForEach(favoriteQuoteListViewModel.quoteList) { quote in
+                            FavoriteQuoteListRow(
+                                id: quote.id,
+                                text: quote.text,
+                                author: quote.author,
+                                isFavorite: quote.isFavorite,
+                                favoriteQuoteListViewModel: favoriteQuoteListViewModel
+                            )
                         }
                     }
                     .opacity(filter == .quotes ? 1 : 0)
                     .listStyle(.plain)
                     List {
-                        if let authorList: [AuthorUIModel] = favoriteQuoteListViewModel.authorList {
-                            ForEach(authorList) { (author: AuthorUIModel) in
-                                VStack(alignment: .leading) {
-                                    Text(author.fullName)
-                                    Text("\(author.numberOfQuotes) quote\(author.numberOfQuotes > 1 ? "s" : "")")
-                                        .font(.subheadline)
-                                        .foregroundStyle(.gray)
-                                }
+                        ForEach(favoriteQuoteListViewModel.authorList) { (author: AuthorUIModel) in
+                            VStack(alignment: .leading) {
+                                Text(author.fullName)
+                                Text("\(author.numberOfQuotes) citation\(author.numberOfQuotes > 1 ? "s" : "")")
+                                    .font(.subheadline)
+                                    .foregroundStyle(.gray)
                             }
                         }
                     }
@@ -75,7 +72,7 @@ struct FavoriteQuoteListRow: View {
     let id: Int
     let text: String
     let author: String
-    @State var isFavorite: Bool
+    let isFavorite: Bool
 
     @ObservedObject var favoriteQuoteListViewModel: FavoriteQuoteListViewModel
 
@@ -95,7 +92,6 @@ struct FavoriteQuoteListRow: View {
             Spacer()
             Button {
                 favoriteQuoteListViewModel.switchIsFavoriteFlag(quoteId: id)
-                isFavorite = !isFavorite // It allows the row to stay in the list until the list is reloaded
             } label: {
                 Image(systemName: "heart\(isFavorite == true ? ".fill" : "")")
             }

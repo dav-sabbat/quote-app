@@ -9,11 +9,12 @@ import Combine
 import SwiftUI
 
 struct SearchView: View {
+    @State private var textFieldText: String = ""
+    @State private var publisher = PassthroughSubject<String, Never>()
+
     @ObservedObject var searchViewViewModel: SearchViewViewModel
 
-    @State var textFieldText: String = ""
-    @State var publisher = PassthroughSubject<String, Never>()
-    let debounceSeconds = 0.250
+    private let debounceSeconds = 0.250
 
     var body: some View {
         VStack {
@@ -53,7 +54,6 @@ struct SearchView: View {
             }
             .listRowSpacing(20)
             .frame(maxHeight: textFieldText.count > 0 ? .infinity : 0)
-//            .frame(maxHeight: .infinity)
             .animation(.easeIn, value: textFieldText)
             .listStyle(.plain)
         }
@@ -78,7 +78,7 @@ struct SearchViewRow: View {
     let id: Int
     let text: String
     let author: String
-    @State var isFavorite: Bool
+    let isFavorite: Bool
 
     var body: some View {
         HStack {
@@ -97,7 +97,6 @@ struct SearchViewRow: View {
             Spacer()
             Button {
                 searchViewViewModel.switchIsFavoriteFlag(quoteId: id)
-                isFavorite.toggle()
             } label: {
                 Image(systemName: "heart\(isFavorite == true ? ".fill" : "")")
             }

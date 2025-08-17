@@ -12,6 +12,8 @@ class SearchViewViewModel: ObservableObject {
 
     let searchForQuote: SearchForQuotes
     let switchIsFavoriteFlag: SwitchIsFavoriteFlag
+    
+    private var currentStringForSearch: String = ""
 
     init(searchForQuote: SearchForQuotes, switchIsFavoriteFlag: SwitchIsFavoriteFlag) {
         self.searchForQuote = searchForQuote
@@ -19,15 +21,29 @@ class SearchViewViewModel: ObservableObject {
     }
 
     func fetchQuoteList(for stringForSearch: String) {
-        if let quotesFiltered = try? searchForQuote.execute(withString: stringForSearch) {
-            quoteList = quotesFiltered.map {
-                QuoteUIModel(id: $0.id, text: $0.text, author: $0.author, isFavorite: $0.isFavorite)
-            }
+        do {
+            currentStringForSearch = stringForSearch
+            let quotesFiltered = try searchForQuote.execute(withString: stringForSearch)
+            quoteList = quotesFiltered
+                .map {
+                    QuoteUIModel(
+                        id: $0.id,
+                        text: $0.text,
+                        author: $0.author,
+                        isFavorite: $0.isFavorite
+                    )
+                }
+        } catch {
+            print("cannot fetch quote list")
         }
     }
 
     func switchIsFavoriteFlag(quoteId: Int) {
-        try? switchIsFavoriteFlag.execute(id: quoteId)
-        // do not refresh quoteList so the unfavorite stay on screen
+        do {
+            try switchIsFavoriteFlag.execute(id: quoteId)
+            fetchQuoteList(for: currentStringForSearch)
+        } catch {
+            print("cannot switch is favorite flag")
+        }
     }
 }

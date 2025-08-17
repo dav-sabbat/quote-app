@@ -11,6 +11,7 @@ class QuoteViewViewModel: ObservableObject {
     let getNotFavoriteRandomQuote: GetNotFavoriteRandomQuote
     let switchIsFavoriteFlag: SwitchIsFavoriteFlag
     let getQuoteById: GetQuoteById
+
     @Published var quote: QuoteUIModel?
 
     init(getNotFavoriteRandomQuote: GetNotFavoriteRandomQuote, switchIsFavoriteFlag: SwitchIsFavoriteFlag, getQuoteById: GetQuoteById) {
@@ -34,16 +35,17 @@ class QuoteViewViewModel: ObservableObject {
     }
 
     func switchIsFavorite() {
-        if let quote = quote {
-            try? switchIsFavoriteFlag.execute(id: quote.id)
-            if let updatedQuote = try? getQuoteById.execute(id: quote.id) {
-                self.quote = QuoteUIModel(
-                    id: updatedQuote.id,
-                    text: updatedQuote.text,
-                    author: updatedQuote.author,
-                    isFavorite: updatedQuote.isFavorite
-                )
-            }
+        do {
+            try switchIsFavoriteFlag.execute(id: quote!.id)
+            let updatedQuote = try getQuoteById.execute(id: quote!.id)
+            quote = QuoteUIModel(
+                id: updatedQuote.id,
+                text: updatedQuote.text,
+                author: updatedQuote.author,
+                isFavorite: updatedQuote.isFavorite
+            )
+        } catch {
+            print("cannot toggle isFavorite property")
         }
     }
 }
