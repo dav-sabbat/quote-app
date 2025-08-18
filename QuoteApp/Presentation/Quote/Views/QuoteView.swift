@@ -13,11 +13,31 @@ struct QuoteView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack { Spacer() }
-            Spacer()
             if let quote = quoteViewViewModel.quote {
+                ZStack(alignment: .leading) {
+                    Text("la citation du jour 👇") // 🤘
+                        .foregroundStyle(.gray)
+                        .font(.title)
+                        .padding([.top])
+                        .padding([.top])
+                        .opacity(quoteViewViewModel.idQuoteOfTheDay == quote.id ? 1 : 0)
+                    Button {
+                        quoteViewViewModel.fetchQuoteOfTheDay()
+                    } label: {
+                        Text("👈 revenir à la citation du jour")
+                            .foregroundStyle(.gray)
+                            .font(.callout)
+                            .padding([.top])
+                            .padding([.top])
+                            .opacity(quoteViewViewModel.idQuoteOfTheDay == quote.id ? 0 : 1)
+                    }
+                }
+
                 Text(quote.text)
                     .font(.custom("Hanken Grotesk", size: 34, relativeTo: .largeTitle))
                     .italic()
+                    .padding([.top])
+                    .padding([.top])
                 HStack {
                     Spacer()
                     Text("de")
@@ -58,11 +78,6 @@ struct QuoteView: View {
                 endPoint: .bottom
             )
             .ignoresSafeArea()
-        }
-        .task {
-            if quoteViewViewModel.quote == nil {
-                quoteViewViewModel.fetchRandomQuote()
-            }
         }
     }
 }
