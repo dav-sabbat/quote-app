@@ -29,10 +29,14 @@ struct FavoriteQuoteList: View {
                                 isFavorite: quote.isFavorite,
                                 favoriteQuoteListViewModel: favoriteQuoteListViewModel
                             )
+                            .listRowSeparator(.hidden)
+                            
                         }
                     }
+                    .listRowSpacing(20)
                     .opacity(filter == .quotes ? 1 : 0)
                     .listStyle(.plain)
+                    .background(.white)
                     List {
                         ForEach(favoriteQuoteListViewModel.authorList) { (author: AuthorUIModel) in
                             VStack(alignment: .leading) {
@@ -51,7 +55,8 @@ struct FavoriteQuoteList: View {
             .background(content: {
                 Color.background
                     .ignoresSafeArea()
-            }).navigationTitle("mes favoris")
+            })
+            .navigationTitle("mes favoris")
             .task {
                 if filter == .quotes {
                     favoriteQuoteListViewModel.fetchQuoteFavoriteList()
@@ -60,6 +65,7 @@ struct FavoriteQuoteList: View {
                 }
             }
         }
+        
     }
 }
 

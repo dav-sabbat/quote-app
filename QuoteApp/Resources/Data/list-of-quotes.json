@@ -13,7 +13,7 @@
   { "id": 12, "text": "Il faut imaginer Sisyphe heureux.", "author": "Albert Camus", "isFavorite": true },
   { "id": 13, "text": "L’enfer, c’est les autres.", "author": "Jean-Paul Sartre", "isFavorite": false },
   { "id": 14, "text": "Homme libre, toujours tu chériras la mer !", "author": "Charles Baudelaire", "isFavorite": false },
-  { "id": 15, "text": "Qu’importe le flacon, pourvu qu’on ait l’ivresse.", "author": "Alfred de Musset", "isFavorite": false },
+  { "id": 15, "text": "Qu’importe le flacon, pourvu qu’on ait l’ivresse.", "author": "Alfred de Musset", "isFavorite": true },
   { "id": 16, "text": "On n’est jamais si heureux ni si malheureux qu’on se l’imagine.", "author": "François de La Rochefoucauld", "isFavorite": false },
   { "id": 17, "text": "La plus perdue de toutes les journées est celle où l’on n’a pas ri.", "author": "Chamfort", "isFavorite": false },
   { "id": 18, "text": "Ce que l’on conçoit bien s’énonce clairement, et les mots pour le dire arrivent aisément.", "author": "Nicolas Boileau", "isFavorite": false },

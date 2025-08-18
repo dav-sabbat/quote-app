@@ -13,11 +13,31 @@ class QuoteViewViewModel: ObservableObject {
     let getQuoteById: GetQuoteById
 
     @Published var quote: QuoteUIModel?
+    @Published var isQuoteOfTheDay: Bool?
+
+    let idQuoteOfTheDay: Int!
 
     init(getNotFavoriteRandomQuote: GetNotFavoriteRandomQuote, switchIsFavoriteFlag: SwitchIsFavoriteFlag, getQuoteById: GetQuoteById) {
         self.getNotFavoriteRandomQuote = getNotFavoriteRandomQuote
         self.switchIsFavoriteFlag = switchIsFavoriteFlag
         self.getQuoteById = getQuoteById
+
+        idQuoteOfTheDay = 10
+        fetchQuoteOfTheDay()
+    }
+
+    func fetchQuoteOfTheDay() {
+        do {
+            let quote = try getQuoteById.execute(id: idQuoteOfTheDay)
+            self.quote = QuoteUIModel(
+                id: quote.id,
+                text: quote.text,
+                author: quote.author,
+                isFavorite: quote.isFavorite
+            )
+        } catch {
+            print("cannot fetch quote of the day")
+        }
     }
 
     func fetchRandomQuote() {
